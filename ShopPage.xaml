@@ -8,8 +8,8 @@
             <Editor Placeholder="Enter shop name" Margin="20"
 Text="{Binding ShopName}"
 HeightRequest="50" />
-            <Editor Placeholder="Enter shop adress" Margin="20"
-Text="{Binding Adress}"
+            <Editor Placeholder="Introdu Adresa destiantiei" Margin="20"
+Text="{Binding Address}"
 HeightRequest="50" />
             <Grid>
                 <Grid.RowDefinitions>

@@ -4,7 +4,7 @@
              x:Class="MediiApp.ListEntryPage"
              Title="ListEntryPage">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add Shopping List"
+        <ToolbarItem Text="Adauga Intrare"
 Clicked="OnShopListAddedClicked" />
     </ContentPage.ToolbarItems>
     <ListView x:Name="listView"

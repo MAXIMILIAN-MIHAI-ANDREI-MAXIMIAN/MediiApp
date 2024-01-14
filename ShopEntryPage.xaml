@@ -13,7 +13,7 @@ ItemSelected="OnListViewItemSelected">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <TextCell Text="{Binding ShopName}"
-Detail="{Binding Adress}" />
+Detail="{Binding Address}" />
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>

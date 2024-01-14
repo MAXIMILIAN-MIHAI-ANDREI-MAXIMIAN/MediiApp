@@ -12,17 +12,18 @@ Title="Welcome"
 ContentTemplate="{DataTemplate local:MainPage}"
 />
         <ShellContent
-Title="My Shopping Lists"
+Title="Lista cu Destinatii"
 ContentTemplate="{DataTemplate local:ListEntryPage}"
 />
         <ShellContent
-Title="My Shops"
+Title="Destinatiile Mele"
 ContentTemplate="{DataTemplate local:ShopEntryPage}"
 />
         <ShellContent
 Title="About"
 ContentTemplate="{DataTemplate local:AboutPage}"
 />
+        <ShellContent Title="Logout" Route="logout" ContentTemplate="{DataTemplate local:LogoutPage}" />
     </TabBar>
 
 </Shell>

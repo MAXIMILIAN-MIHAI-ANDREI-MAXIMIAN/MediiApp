@@ -23,6 +23,15 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new AppShell();
-	}
+        bool isLoggedIn = Preferences.Get("isLoggedIn", false);
+
+        if (isLoggedIn)
+        {
+            MainPage = new AppShell();
+        }
+        else
+        {
+            MainPage = new LoginPage();
+        }
+    }
 }
